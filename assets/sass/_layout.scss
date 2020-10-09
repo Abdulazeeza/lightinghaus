@@ -3,7 +3,7 @@ header{ //header section of the page
 
     .contact_block{//contact container
         background: $primary-color;
-        padding: 0px 100px;
+        padding: 5px 100px;
         min-height: 48px;
         display: flex;
         flex-wrap: wrap;
@@ -210,7 +210,7 @@ footer{
     .contact_block{//contact container
         min-height: 48px;
         background: $primary-color;
-        padding: 0px 100px;
+        padding: 5px 100px;
         display: flex;
         flex-wrap: wrap;
         a{
