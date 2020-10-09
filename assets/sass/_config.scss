@@ -1,0 +1,17 @@
+//set default font 
+$default-font: poppins;
+*{
+  font-family: $default-font;
+}
+
+body{
+  margin: 0px auto;
+  padding: 0px;
+  max-width: 1500px;
+}
+
+//theme colors
+$primary-color: #000000;
+$theme-color: #4F4F4F;
+$secondary-color: #F4811F;
+$bg-color: #ffffff;
