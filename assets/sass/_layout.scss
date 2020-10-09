@@ -262,7 +262,7 @@ footer{
             z-index: 20;
             .nav1{ // first navbar section 
                 align-items: inherit;
-                padding: 0px 20px;
+                padding: 7px 20px 0px 20px;
                 .logo{
                     float: left;
                     order: 1;
@@ -299,7 +299,7 @@ footer{
     header{
         .navbar{
             .nav1,.nav2{
-                padding: 0px 5%;
+                padding: 7px 5% 0px 5%;
             }
         }
     }
