@@ -221,6 +221,9 @@
                 }
                 .categories_section{ //categories section
                     margin: 0px 0px 0px 50px;
+                    .slide_arrow{
+                        padding-right: 50px;
+                    }
                 }
                 .product{
                     margin: 0px 50px 40px 50px;
@@ -284,6 +287,9 @@
                             }
                         }
                     }
+                    .slide_arrow{
+                        padding-right: 20px;
+                    }
                 }
                 .product{
                     margin: 0px 20px 30px 20px;
@@ -325,6 +331,15 @@
                 .apartment_section{ //apartment section
                     width: 90%;
                     margin: 0px auto;
+                    .items{
+                        &__container{
+                            .item{
+                                button{
+                                    width: 120px;
+                                }
+                            }
+                        }
+                    }
                 }
                 .categories_section{ //categories section
                     margin: 0px 0px 0px 5%;
@@ -332,8 +347,14 @@
                         &__container{
                             .item{
                                 min-width: 300px;
+                                button{
+                                    width:200px;
+                                }
                             }
                         }
+                    }
+                    .slide_arrow{
+                        padding-right: 5%;
                     }
                 }
                 .product{
