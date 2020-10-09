@@ -7,6 +7,7 @@
                 background-repeat: no-repeat;
                 background-size: 100% cover;
                 padding: 150px 0px;
+                position: relative;
                 &__content{
                     width: 410px;
                     height: 300px;
@@ -45,6 +46,28 @@
                         img{
                             margin-left: 15px;
                         }
+                    }
+                }
+                .display{
+                    position: absolute;
+                    bottom:30px;
+                    left: 0px;
+                    padding-left: 100px;
+                    li{
+                        position: absolute;
+                        display: inline;
+                        padding: 1px 12px;
+                        list-style: none;
+                        background: $bg-color;
+                    }
+                    .active{
+                        background: $secondary-color !important;
+                    }
+                    &__2{
+                        margin-left: 30px;
+                    }
+                    &__3{
+                        margin-left: 58px;
                     }
                 }
             }
@@ -215,6 +238,9 @@
                     &__content{
                         margin-left: 50px;
                     }
+                    .display{
+                        padding-left: 50px;
+                    }
                 }
                 .apartment_section{ //apartment section
                     margin: 0px 50px;
@@ -266,6 +292,9 @@
                 .banner{ //banner 
                     &__content{
                         margin-left: 20px;
+                    }
+                    .display{
+                        padding-left: 20px;
                     }
                 }
                 .apartment_section{ //apartment section
@@ -326,6 +355,9 @@
                             height: 50px;
                             bottom: 20px;
                         }
+                    }
+                    .display{
+                        padding-left: 7%;
                     }
                 }
                 .apartment_section{ //apartment section
