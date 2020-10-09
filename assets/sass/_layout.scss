@@ -79,10 +79,16 @@ header{ //header section of the page
                     }
                 }
             }
+            .menu_icon{
+                color: $secondary-color;
+                font-size: 22px;
+                display: none;
+                cursor: pointer;
+            }
         }
     
         .nav2{ //second navbar section 
-            height: 50px;
+            min-height: 50px;
             background: $bg-color;
             padding: 0px 100px;
             display: flex;
@@ -245,7 +251,12 @@ footer{
         min-height: 120px;
         .navbar{ //navbar section
             .nav2{
-                display: none;
+                flex-wrap: wrap;
+                justify-content: end;
+                &__link{
+                    min-width: fit-content;
+                    padding: 0px 10px;
+                }
             }
         }
     }
@@ -268,10 +279,11 @@ footer{
                     order: 1;
                 }
                 .search_container{
-                    width: 100%;
+                    width: 80%;
                     float: left;
                     order: 3;
-                    margin: 10px auto;
+                    margin: 10px 0px;
+                    height: 40px;
                 }
                 .account_section{
                     float: left;
@@ -280,9 +292,19 @@ footer{
                         margin-left: 15px;
                     }
                 }
+                .menu_icon{
+                    display: flex;
+                    align-items: center;
+                    float: left;
+                    order: 4;
+                }
             }
             .nav2{
                 padding: 0px 20px;
+                display: none;
+                &--active{
+                    display: flex;
+                }
             }
         }
     }
